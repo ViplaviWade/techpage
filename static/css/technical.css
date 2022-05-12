@@ -1,0 +1,35 @@
+.navbar-light .navbar-brand{
+    color:blueviolet;
+}
+html{
+    height:100%;
+}
+body{
+    background: url(https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: catamaran;
+    
+}
+
+
+.bg-light{
+    background-color: mediumseagreen;
+}
+ .fa-lg{
+    color: blue;
+}
+.center{
+    text-align:center;
+    padding:15%;
+}
+h1,p{
+    font-weight: bold;
+    color:black;
+}
+@media(min-width:768px){
+    h1{
+        background-color: skyblue;
+        opacity:0.8;
+    }
+}
