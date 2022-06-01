@@ -34,6 +34,18 @@
 </script>
   <!-- End script for Google Analytics -->
   
+  <script type="text/javascript">
+        var before_loadtime = new Date().getTime();
+        window.onload = Pageloadtime;
+        function Pageloadtime() {
+            var aftr_loadtime = new Date().getTime();
+            // Time calculating in seconds  
+            pgloadtime = (aftr_loadtime - before_loadtime) / 1000
+
+            console.log("Pgae load time is " + pgloadtime + " Seconds");
+        }  
+    </script>
+  
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
